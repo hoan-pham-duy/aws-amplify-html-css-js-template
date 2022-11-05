@@ -87,6 +87,12 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-image: url('../assets/images/wedding_bg_1.png');
+  background-color: rgba(255, 255, 255, 0.1);
+  background-blend-mode: overlay;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;  
 }
 
 hr {
